@@ -20,7 +20,7 @@ const Formulario = styled.form`
         border-bottom: 1px solid white;
         color: white;
         font-size: 12pt;
-
+        outline: none;
     }
 
     button {
