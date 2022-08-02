@@ -34,14 +34,11 @@ export function Form({setPessoa}) {
         <input type="text" placeholder="Nome" autoFocus {...register("name")}/>
         {errors.name?.message}
 
-
         <input type="text" placeholder="E-mail" {...register("email")} />
         {errors.email?.message}
 
-
         <input type="password" placeholder="Senha" {...register("password")} />
         {errors.password?.message}
-
 
         <input type="password" placeholder="Confirme sua senha" {...register("confirmPassword")} />
         {errors.confirmPassword?.message}
