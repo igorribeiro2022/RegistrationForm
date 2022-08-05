@@ -9,7 +9,6 @@ body {
   background-position: center;
   background-size: 117vw;
   
-
     @media (max-width: 500px) {
         background-size: 100vh;
     }
