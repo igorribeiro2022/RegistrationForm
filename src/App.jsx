@@ -7,7 +7,7 @@ function App() {
       <GlobalStyle/>
       <Router/>
     </div>
-  );
+  )
 }
 
 export default App;
