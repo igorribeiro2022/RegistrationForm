@@ -1,11 +1,8 @@
 import { motion } from "framer-motion";
 import { Form } from "../../Components/Form";
 import PagCadastro from "../../Styles/PagCadastro";
-import { useParams } from 'react-router-dom'
-
 
 export default function Cadastro({setPessoa}) {
-    const params = useParams()
     
   return (
     <motion.div
